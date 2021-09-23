@@ -1,0 +1,41 @@
+:root {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    --text-primary: black;
+    --text-secondary: #ececec;
+    --bg-primary: #E6EDEF;
+    --bg-secondary: #293a3f;
+    --primary: #003049;
+    --secondary: #d62828;
+    --tertiary: #f77f00;
+}
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+    
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--bg-secondary);
+    border-radius: 10rem;
+}
+
+main {
+    margin-left: 3rem;
+    padding: 1rem;
+}
+
+
+

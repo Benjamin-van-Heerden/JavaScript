@@ -1,0 +1,6 @@
+<section class="card-list">
+  <app-card
+    *ngFor="let card of [1, 2, 3, 4]; let first = first; let last = last"
+    [ngClass]="{ first: first, last: last }"
+  ></app-card>
+</section>

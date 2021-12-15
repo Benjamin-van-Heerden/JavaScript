@@ -1,9 +1,9 @@
 .navbar {
   position: fixed;
-  background-color: var(--bg-primary);
-  width: 3rem;
+  background-color: var(--bg-tertiary);
   height: 100vh;
   transition: width 200ms ease;
+  z-index: 3;
 }
 
 .navbar-nav {
@@ -72,11 +72,12 @@
   }
 
   .navbar:hover {
-    width: 9rem;
+    width: 15rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
+
   .navbar {
     bottom: 0;
     width: 100vw;
@@ -94,5 +95,4 @@
   main {
     margin: 0;
   }
-
 }

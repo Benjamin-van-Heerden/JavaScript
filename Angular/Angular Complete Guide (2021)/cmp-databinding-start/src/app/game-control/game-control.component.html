@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-xs-12">
+        <div class="btn-toolbar">
+            <button class="btn btn-primary" (click)="startGame()">
+                Start
+            </button>
+            <button class="btn btn-danger" (click)="stopGame()">
+                Pause
+            </button>
+        </div>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-xs-6">
+        <app-even
+        [evens]="evens"
+        ></app-even>
+    </div>
+    <div class="col-xs-6">
+        <app-odd
+        [odds]="odds"></app-odd>
+    </div>
+</div>
